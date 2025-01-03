@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 require('dotenv').config();
-const BASE_URL = process.env.BACKEND_URL || ' http://localhost:4000';
+const BASE_URL = process.env.BACKEND_URL ;
 export default function Home() {
   const [formData, setFormData] = useState({
     date: '',
